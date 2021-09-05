@@ -26,6 +26,7 @@ spec:
       labels:
         app: gitops-test
     spec:
+      serviceAccountName: gitops-app
       containers:
       - name: myapp
         image: gcr.io/PROJECT_ID/gitops-test:SHORT_SHA
