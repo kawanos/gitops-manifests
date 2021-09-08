@@ -29,7 +29,7 @@ spec:
       serviceAccountName: gitops-app
       containers:
       - name: myapp
-        image: gcr.io/shingo-anthos-vmware0910/gitops-test:1bd4c93
+        image: gcr.io/shingo-anthos-vmware0910/gitops-test:5372731
         ports:
         - containerPort: 8080
         resources:
